@@ -1,0 +1,41 @@
+.avatar {
+    position: relative;
+    width: 100%;
+}
+.bg-grad:hover~.avatar-name{
+    display: block;
+}
+.avatar img, .bg-grad {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.bg-grad {
+    z-index: 50;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+.bg-grad:hover {
+    background-color: rgba(0,0,0,0.6);
+}
+.avatar-name {
+    display: none;
+    word-wrap: break-all;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    width: 100%;
+    z-index: 51;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0px 0px 5px 5px;
+    color: white;
+    font-family: sans-serif;
+}

@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav .brand-logo, .button-collapse {
+    margin-left: 25px;
+}
+
+nav ul.right {
+    margin-right: 25px;
+}
+
+.side-nav .chip {
+    margin-left: 25px;
+}
