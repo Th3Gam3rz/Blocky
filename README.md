@@ -17,3 +17,4 @@ Blocky has been tested with Vanilla, Bukkit and Spigot Servers. All versions are
 Modded Servers have not been tested but are assumed to be compatible.
 
 # [Spigot Forum Thread](https://www.spigotmc.org/threads/blocky-server-website-software-pre-alpha.145731/)
+# [Spigot Resource (Not Availabe Yet)]()
