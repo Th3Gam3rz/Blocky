@@ -13,14 +13,13 @@
         <link href="css/nav-fix.css" rel="stylesheet">
         
         <!-- Meta Tags For Google -->
-        <meta name="author" content="Blocky">
+        <meta name="author" content="<?php echo $serverName; ?>">
         <meta name="description" content="Blocky is a open-sourced Minecraft forum software.">
         
         <!-- For Social Media --->
-        <meta property=”og:title” content=”Blocky - Minecraft Forum Software”/>
-        <meta property=”og:type” content=”article”/>
-        <meta property=”og:url” content=”http://blockysoftware.com”/>
-        <meta property=”og:description” content=”Blocky is a open-sourced Minecraft forum software”/>
+        <meta property="og:title" content="<?php echo $serverName; ?>"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:description" content="Blocky is a open-sourced Minecraft forum software"/>
         
         <!-- Robots.txt --->
         <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
