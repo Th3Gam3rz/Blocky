@@ -2,12 +2,28 @@
 <!DOCTYPE html>
   <html>
     <head>
+      <!-- Meta Tags Needed -->
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
         <!--Import materialize.css-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css" rel="stylesheet">
-        <!--Let browser know website is optimized for mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/nav-fix.css" rel="stylesheet">
+        
+        <!-- Meta Tags For Google -->
+        <meta name="author" content="Blocky">
+        <meta name="description" content="Blocky is a open-sourced Minecraft forum software.">
+        
+        <!-- For Social Media --->
+        <meta property=”og:title” content=”Blocky - Minecraft Forum Software”/>
+        <meta property=”og:type” content=”article”/>
+        <meta property=”og:url” content=”http://blockysoftware.com”/>
+        <meta property=”og:description” content=”Blocky is a open-sourced Minecraft forum software”/>
+        
+        <!-- Robots.txt --->
+        <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
     </head>
     <body>
         <nav>
