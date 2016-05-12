@@ -16,12 +16,12 @@
         <meta name="author" content="<?php echo $serverName; ?>">
         <meta name="description" content="Blocky is a open-sourced Minecraft forum software.">
         
-        <!-- For Social Media --->
+        <!-- For Social Media -->
         <meta property="og:title" content="<?php echo $serverName; ?>"/>
         <meta property="og:type" content="article"/>
         <meta property="og:description" content="Blocky is a open-sourced Minecraft forum software"/>
         
-        <!-- Robots.txt --->
+        <!-- Robots.txt -->
         <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
     </head>
     <body>
